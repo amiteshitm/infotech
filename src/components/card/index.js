@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
 import Grid from '@material-ui/core/Grid';
+import Logo from '../assets/icon_onepack.15ec9319.png'
 const useStyles = makeStyles((theme) => ({
     root: {
         // Width: '60%',
@@ -55,7 +56,7 @@ export default function SimpleCard() {
                     Share Payment Link
         </Typography>
                 <Typography variant="h5" component="h2">
-                    <img src='/images/icon_onepack.15ec9319.png' style={{ width: 40, marginTop: 15 }} />
+                    <img src={Logo} style={{ width: 40, marginTop: 15 }} />
                 </Typography>
                 <Typography className={classes.pos} >
                     ₹ 3,062
